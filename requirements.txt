@@ -1,0 +1,17 @@
+# Trading Alert Bot v3 Dependencies
+# Install with: pip install -r requirements.txt
+
+# IBKR API (easy install version)
+ib_insync>=0.9.86
+
+# Yahoo Finance (free alternative data source)
+yfinance>=0.2.36
+
+# HTTP requests for Telegram
+requests>=2.28.0
+
+# Timezone handling
+pytz>=2023.3
+
+# Environment variable loading from .env
+python-dotenv>=1.0.1
